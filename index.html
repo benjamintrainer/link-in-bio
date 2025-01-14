@@ -1,1 +1,153 @@
-<h1>My homepage</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+    <title>Link in Bio</title>
+
+    <style>
+  
+      html {
+        min-height:100%;
+      }
+      body {
+        min-height:100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(0deg, #0073ff, #0069ff, #005fff, #0054ff, #0048ff, #003bff, #002aff, #020eff);
+        font-family: "Roboto Flex"
+      }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      a {
+        color:rgba(255, 255,255, 1.0);
+        text-decoration: none;
+      }
+      
+      .item {
+        background-color:rgb(36, 36, 210);
+        border: 1px white solid;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+      }
+
+      .name-row {
+        color:rgba(255, 255,255, 1.0);
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Roboto Flex";
+        font-size: 24px;
+        font-weight: 700;
+      }
+      
+      .main-container{
+        width:640px;
+        margin: auto;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .roboto-flex {
+        font-family: "Roboto Flex", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img src="/Thumbnails/Headshot.jpg" alt="Benjamin Trainer headshot" class="avatar-image">
+      </div>
+  
+      <div class="name-row">
+        Benjamin Trainer
+        <p>First assignment for App Dev</p>
+      </div>
+
+      <div class="social-icons-row">
+        <a href="https://github.com/benjamintrainer" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/benjamin-trainer/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+  
+        <a href="https://www.instagram.com/trainerwheels/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+  
+      <div class="links-row">
+        <div class="item">
+          <img src="/Thumbnails/Amazon logo.jpg" alt="amazon logo" class="thumbnail">
+  
+          <a class="link-text" target="_blank" href="https://www.amazon.com/b/ref=s9_bw_cg_botysf24_1a1_w?node=17276804011&ref_=boty_bhp_reg&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-2&pf_rd_r=85ZHZTBQ8YD8Z24A1PSX&pf_rd_t=101&pf_rd_p=c86c175d-52cc-4ad5-b486-b5aa1bcc2292&pf_rd_i=283155" >
+            Amazon's Best Books of 2024
+          </a>
+        </div>
+  
+      </div> <!-- links-row -->
+    </div> <!-- main-container -->
+  </body>
+</html>
